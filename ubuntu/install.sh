@@ -17,3 +17,4 @@ apt-get -y install ruby1.9.1-full
 apt-get -y install libyaml-ruby libzlib-ruby rubygems
 apt-get -y install mono-complete
 apt-get -y install python3
+apt-get -y install ghc6 ghc6-prof ghc6-doc
