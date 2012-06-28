@@ -5,11 +5,6 @@ apt-add-repository ppa:chris-lea/node.js
 apt-add-repository ppa:gophers/go
 apt-get -y update
 
-#source control
-apt-get -y install git mercurial
-#essentials
-apt-get -y install curl build-essential openssl libssl-dev
-
 #languages' implementations
 apt-get -y install nodejs npm \
                    golang-stable \
