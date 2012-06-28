@@ -1,8 +1,8 @@
 apt-get -y upgrade
 apt-get -y dist-upgrade
 apt-get -y install python-software-properties
-apt-add-repository ppa:chris-lea/node.js
-apt-add-repository ppa:gophers/go
+apt-add-repository -y ppa:chris-lea/node.js
+apt-add-repository -y ppa:gophers/go
 apt-get -y update
 
 #languages' implementations
