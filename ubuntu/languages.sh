@@ -18,4 +18,5 @@ apt-get -y install nodejs npm \
                    scala \
                    ocaml ocaml-findlib \
                    racket \
-                   erlang
+                   erlang \
+                   luajit
