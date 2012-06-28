@@ -5,16 +5,22 @@ apt-add-repository ppa:chris-lea/node.js
 apt-add-repository ppa:gophers/go
 apt-get -y update
 
-#cvs
-apt-get -y install git-core mercurial
+#source control
+apt-get -y install git mercurial
 #essentials
 apt-get -y install curl build-essential openssl libssl-dev
 
-#languages
+#languages' implementations
 apt-get -y install nodejs npm \
                    golang-stable \
                    ruby1.9.1-full \
-                   libyaml-ruby libzlib-ruby rubygems \
+                   libruby rubygems \
                    mono-complete \
                    python3 \
-                   ghc6 ghc6-prof ghc6-doc
+                   ghc6 ghc6-prof ghc6-doc \
+                   gnat \
+                   openjdk-7-jdk \
+                   scala \
+                   ocaml ocaml-findlib \
+                   racket \
+                   erlang
